@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Didi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Happy 24th Birthday, Didi!</h1>
+        </div>
+        <div class="content">
+            <p>Wishing you a day filled with love, joy, and beautiful moments.</p>
+            <button onclick="lightsOn()">Lights On!</button>
+            <button onclick="showMessage()">Click for a Surprise!</button>
+            <div id="message" class="hidden">
+                <p>You are the best sister in the world! 🎉</p>
+                <img src="didi.jpg" alt="diiidid">
+            </div>
+        </div>
+        <div class="footer">
+            <p>With lots of love, Samriddhi 💖</p>
+        </div>
+    </div>
+    <div id="confetti-container" class="hidden"></div>
+    <audio id="birthday-song" src="happy-birthday.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
